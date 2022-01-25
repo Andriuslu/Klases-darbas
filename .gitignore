@@ -1,0 +1,6 @@
+.idea
+Docker
+Dockerfile
+composer.lock
+vendor
+.DS_Store
