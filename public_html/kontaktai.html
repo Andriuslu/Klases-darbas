@@ -1,29 +1,36 @@
 <!Doctype html>
-<html>
+<html lang="lt">
 <head>
-    <title>Lentele</title>
-    <meta charset="UTF-8" />
+  <title>Kontaktai</title>
+  <meta charset="UTF-8">
 </head>
 <body>
 
-    <main>
-        <form>
-       <input name="Jusu vardas" type="text" id="fn" placeholder="Jusu vardas"><br>
-        <input placeholder="Jusu el. pasto adresas"><br>
-        <input placeholder="Zinutes tema"><br>
-        <textarea rows="10" cols="16.5" placeholder="Zinute"></textarea><br>
-        <input value="Siusti" type="submit" /><br><br><br>
-        <label for="fn">Jusu vardas</label>
-        <input name="Jusu vardas" type="text" id="fn"><br>
-        <label for="fn">Jusu el.pasto adresas</label>
-        <input name="Jusu el.pasto adresas"><br>
-        <label for="fn">Zinutes tema</label>
-        <input name="Zinutes tema"><br>
-        <label for="fn">Zinute</label>
-            <textarea rows="10" cols="14"></textarea><br>
-            <input value="Siusti" type="submit"
-        </form>
+<aside>
+  Čia bus reklama
+</aside><br><br><br>
+<main>
+  <form action="http://localhost/kursiustiduomenis.php" method="POST">
+    <input name="firstname" type="text" id="fn" placeholder="Jūsų vardas"/><br>
+    <input placeholder="Jūsų el.pašto adresas"/><br>
+    <input placeholder="Žinutės tema"/><br>
+    <textarea rows="7" cols="16.5" placeholder="Žinutė"></textarea><br>
+    <input value="Siųsti" type="submit"/><br><br><br>
 
-    </main>
+    <label for="fn">Jūsų vardas</label>
+  <input name="firstname" type="text" id="fn"><br>
+    <label for="fn">Jūsų el.pašto adresas</label>
+  <input name="firstname" type="text" id="fn"><br>
+  <label for="fn">Žinutės tema</label>
+  <input name="firstname" type="text" id="fn"><br>
+  <label for="fn">Žinutė</label>
+  <textarea name="massage" rows="5" cols="16.5" id="žinutė">
+  </textarea><br>
+  <input value="Siųsti" type="submit">
+
+
+
+  </form>
+</main>
 </body>
 </html>
