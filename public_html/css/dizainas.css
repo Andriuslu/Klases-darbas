@@ -2,15 +2,15 @@ ul{
     color: blue;
 }
 
-.geltonas {
+.doitred {
     color: red;
  }
-.aukstis {
+.doitheight {
     width: 100px; height: 100px;
 }
-.raudonas {
+.red {
     color: red;
 }
-.bold {
+.doitbold {
     font-weight: bold;
 }
