@@ -1,0 +1,16 @@
+ul{
+    color: blue;
+}
+
+.geltonas {
+    color: red;
+ }
+.aukstis {
+    width: 100px; height: 100px;
+}
+.raudonas {
+    color: red;
+}
+.bold {
+    font-weight: bold;
+}
