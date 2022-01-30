@@ -1,1 +1,46 @@
 <!Doctype html>
+<html lang="lt">
+<head>
+    <title>Šachmatų lenta</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/dizainas.css">
+    <link rel="stylesheet" href="../css/layout.css">
+</head>
+<body>
+<div class="bbtableb">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+</body>
+</html>
