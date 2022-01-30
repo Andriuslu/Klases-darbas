@@ -1,0 +1,22 @@
+aside {
+    float: right;
+    border: double;
+}
+footer{
+    float: bottom;
+    display: table-row; color: blue;
+    border: solid;
+    width: 500px;
+}
+header {
+    float: bottom;
+    color: cadetblue;
+}
+main {
+    float: bottom;
+    width: 800px;
+    height: 400px;
+}
+
+
+
