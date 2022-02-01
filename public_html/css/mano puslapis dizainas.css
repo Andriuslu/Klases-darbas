@@ -1,0 +1,60 @@
+.H {
+    border: none;
+    background: linear-gradient(90deg,navajowhite,aqua);
+    width: 100%;
+    height: 100%;
+    padding-top: 2px;
+}
+.R {
+    margin-left: 850px;
+    float: right;
+}
+img {
+    height: 120px;
+    width: 120px;
+    border-radius: 30px 0 30px 0;
+}
+.LU {
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: inline;
+    padding: 20px 10px 0px 10px;
+
+
+}
+.right {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+.M {
+    border: 2px;
+    background-color: lightblue;
+    width: 100%;
+    height: 100%;
+}
+.A {
+    border: 2px;
+    background-color: navajowhite;
+    width: 100%;
+    height: 100%;
+}
+.F {
+    border: 4px;
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 100%;
+}
+.container {
+    display: flex;
+    border: solid 2px red;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
