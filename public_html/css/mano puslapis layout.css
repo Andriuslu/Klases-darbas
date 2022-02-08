@@ -5,12 +5,13 @@
     display: grid;
     width: 100%;
     height: 100%;
+    grid-gap: 1px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 150px 700px 90px;
+    grid-template-rows: 150px 400px 90px;
     grid-template-areas:
     'a a a a a'
-    'b b b b c'
-    'd d d d c'
+    'b b b c c'
+    'd d d c c'
 }
 .a {
     grid-area: a;
@@ -24,7 +25,6 @@
     grid-area: c;
     background-color: lightyellow;
     text-align: center;
-    padding: 100px;
 }
 .d {
     grid-area: d;
@@ -49,21 +49,70 @@
 .new {
     color: blue;
     grid-area: d;
-    text-align: lef;
+    text-align: center;
     font-size: xx-large;
 }
 .inline {
     grid-area: f;
     text-align: right;
-    padding: 5px;
+    padding: 15px;
     color: black;
 }
 .header {
     display: grid;
-    grid-template-columns: 200px 550px 400px;
+    grid-template-columns: 150px 550px 400px;
     grid-template-areas:
     'h d f';
 }
 .foto {
     grid-area: h;
+}
+.main {
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: 24.9% 24.9% 24.9% 24.9%;
+    height: 100%;
+    width: 100%;
+    grid-template-areas:
+    'z v n m';
+}
+.car {
+    grid-area: z;
+    text-align: center;
+}
+.furniture {
+    grid-area: v;
+    text-align: center;
+}
+.equipment {
+    grid-area: n;
+    text-align: center;
+}
+.lansaft {
+    grid-area: m;
+    text-align: center;
+}
+.af {
+    border-radius: 50px 70px 50px 70px;
+    padding: 30px;
+}
+.aside {
+    display: grid;
+    grid-gap: 1px;
+    grid-template-rows: 500px 500px;
+    width: 100%;
+    height: 100%;
+    grid-template-areas:
+    'p q';
+}
+.discount {
+    grid-area: p;
+    height: 50%;
+    text-align: center;
+
+}
+.advertising {
+    grid-area: q;
+    height: 50%;
+    text-align: center;
 }

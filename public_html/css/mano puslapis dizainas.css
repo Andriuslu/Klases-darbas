@@ -10,5 +10,20 @@ p {
 img {
     padding: 0 0 0 0;
 }
+.main {
+    color: red;
+}
+.car {
+    background-color: aqua;
+}
+.furniture {
+    background-color: aqua;
+}
+.equipment {
+    background-color: aqua;
+}
+.lansaft {
+    background-color: aqua;
+}
 
 
