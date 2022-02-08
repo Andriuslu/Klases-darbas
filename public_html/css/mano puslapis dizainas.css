@@ -4,7 +4,11 @@ html, body {
     background-color: lightblue;
 }
 p {
-    font-size: 3px;
+    font-size: medium;
+}
+
+img {
+    padding: 0 0 0 0;
 }
 
 
