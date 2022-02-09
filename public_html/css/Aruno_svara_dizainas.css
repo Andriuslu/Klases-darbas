@@ -1,7 +1,7 @@
 html, body {
     height: 100%;
     border: none;
-    background-color: lightblue;
+    background: linear-gradient(20deg,white,yellow);
 }
 p {
     font-size: medium;
@@ -22,7 +22,7 @@ img {
 .equipment {
     background-color: aqua;
 }
-.lansaft {
+.land_scape {
     background-color: aqua;
 }
 
