@@ -44,12 +44,12 @@
     grid-area: o;
     color: black;
     position: relative;
-    top: 20px;
-    left: 50px;
+    top: 40px;
 }
 .header {
     display: grid;
-    grid-template-columns: 200px 200px 400px;
+    width: 100%;
+    grid-template-columns: 200px 200px 200px;
     grid-template-areas:
     'h r r r o';
 }
@@ -126,7 +126,6 @@
     overflow: hidden;
     position: fixed;
     top: 0;
-    width: 100%;
 }
 
 .btn:hover {
