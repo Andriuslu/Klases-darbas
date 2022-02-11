@@ -32,6 +32,13 @@
     padding-top: 70px;
 }
 
+.header {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 200px 200px 400px;
+    grid-template-areas:
+    'h r r r o';
+}
 .arunas_svara {
     color: blue;
     grid-area: r;
@@ -46,12 +53,8 @@
     position: relative;
     top: 40px;
 }
-.header {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-areas:
-    'h r r r o';
+.img_valymas {
+    grid-area: h;
 }
 
 .main {
