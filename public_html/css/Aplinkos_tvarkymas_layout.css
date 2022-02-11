@@ -1,0 +1,31 @@
+.border {
+    border: 1px solid black;
+}
+
+.header {
+    display: grid;
+    background: linear-gradient(20deg,white,yellow);
+    width: 100%;
+    grid-template-columns: 200px 200px 400px;
+    grid-template-areas:
+    'h r r r o';
+}
+
+.arunas_svara {
+    color: blue;
+    grid-area: r;
+    text-align: left;
+    font-size: xx-large;
+    position: relative;
+    left: 50px;
+    height: 90px;
+}
+.contact_links {
+    grid-area: o;
+    color: black;
+    position: relative;
+    top: 40px;
+}
+.img_valymas {
+    grid-area: h;
+}
