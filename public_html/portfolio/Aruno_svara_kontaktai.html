@@ -5,10 +5,80 @@
 <head>
     <title>Arūno švara kontaktai</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/Aruno_svara_dizainas.css">
+    <link rel="stylesheet" href="../css/Aruno_svara_layout.css">
 </head>
 
 <body>
 
+<div>
+
+    <div class="border header">
+        <div class="img_valymas">
+            <img src="../img/valymas_logo.jpeg" alt="LOGO" style="width: 148px; height: 148px;">
+        </div>
+        <div class="arunas_svara">
+            <h3>Arūno švara<br></h3>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cheminis valymas</p>
+            <a href="Automobilio_valymas.html"><button class="btn">Automobilio valymas</button></a>
+            <a href="Baldu_valymas.html"><button class="btn">Baldų valymas</button></a>
+            <a href="Irangos_nuoma.html"><button class="btn">Įrangos nuoma</button></a>
+            <a href="Aplinkos_tvarkymas.html"><button class="btn">Aplinkos tvarkymas</button></a>
+        </div>
+        <div class="contact_links">
+            <div>
+                <a href="Aruno_svara.html">PRADŽIA</a>
+                <a href="https://www.facebook.com/arunosvara">Facebook</a>
+                <a href="Aruno_svara_galerija.html" title="Aplankykit mano Galerija">Galerija</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
 </body>
 
 </html>
+/* Extra maži įrenginiai (telefonai, 600px ir žemiau) */
+@media only screen and (max-width: 600px) {
+.pagrindinė, main, aside .{
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+grid-template-areas:
+'a'
+'b'
+'c'
+'d'
+'h'
+'d'
+'f'
+'z'
+'v'
+'n'
+'m'
+'p'
+'q';
+}
+}
+
+
+/* Maži įrenginiai (statmenos planšetės, ar gulsti telefonai 600px ir aukščiau) */
+@media only screen and (min-width: 600px) {
+.pagrindinė, main, aside {
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-template-areas:
+'a a a'
+'b b c'
+'d d c'
+'h d f'
+'z v n m'
+'p q';
+}
+}
+/* Vidutiniai įrenginiai (gulsčios planšetės ar maži laptopai, 768px ir aukščiau) */
+@media only screen and (min-width: 768px) { ... }
+/* Dideli įrenginiai (laptopai, staliniai PC, 992px ir aukščiau) */
+@media only screen and (min-width: 992px) { ... }
+/* Extra dideli įrenginiai (dideli laptopai ir stalinai PC, 1200px ir aukščiau) */
+@media only screen and (min-width: 1200px) { ... }

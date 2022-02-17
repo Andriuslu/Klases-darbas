@@ -1,5 +1,5 @@
 .border {
-    border: 1px solid black;
+    border: 1px solid;
 }
 .pagrindinė {
     display: grid;
@@ -23,17 +23,16 @@
 }
 .c {
     grid-area: c;
-    background-color: lightyellow;
     text-align: center;
 }
 .d {
     grid-area: d;
-    background-color: gray;
-    padding-top: 70px;
+    padding-top: 60px;
 }
 
 .header {
     display: grid;
+    background: linear-gradient(20deg,white,yellow);
     width: 100%;
     grid-template-columns: 200px 200px 400px;
     grid-template-areas:
@@ -43,7 +42,7 @@
     color: blue;
     grid-area: r;
     text-align: left;
-    font-size: xx-large;
+    font-size: x-large;
     position: relative;
     left: 50px;
 }
@@ -70,39 +69,55 @@
     grid-area: z;
     text-align: center;
     color: black;
+    position: relative;
+    top: 10%;
 }
 
 .furniture {
     grid-area: v;
     text-align: center;
     color: black;
+    position: relative;
+    top: 10%;
 }
 .equipment {
     grid-area: n;
     text-align: center;
     color: black;
+    position: relative;
+    top: 10%;
 }
 .land_scape {
     grid-area: m;
     text-align: center;
     color: black;
+    position: relative;
+    top: 10%;
 }
 .af {
     width: 100%;
     height: 100%;
+    border-radius: 30px 30px 30px 30px;
+    filter: blur(1px);
 }
 
 .ff {
     width: 100%;
     height: 100%;
+    border-radius: 30px 30px 30px 30px;
+    filter: blur(1px);
 }
 .if {
     width: 100%;
     height: 100%;
+    border-radius: 30px 30px 30px 30px;
+    filter: blur(1px);
 }
 .lf {
     width: 100%;
     height: 100%;
+    border-radius: 30px 30px 30px 30px;
+    filter: blur(1px);
 }
 
 .aside {
@@ -117,22 +132,66 @@
 .discount {
     grid-area: p;
     position: relative;
-    background-color: black;
+    height: 49%;
+    border-radius: 30px 30px 30px 30px;
+}
+.img_disc {
+    position: relative;
+    top: 20%;
+    text-align: center;
 }
 .advertising {
     grid-area: q;
     position: relative;
-    top: 100px;
+    border-radius: 30px 30px 30px 30px;
+    height: 50%;
+}
+.span_adv {
+    text-align: center;
+    position: relative;
+    top: 50%;
 }
 
 .navbar {
     overflow: hidden;
-    position: fixed;
+    position: relative;
     top: 0;
 }
 
-.btn:hover {
+.container .btn:hover {
     background-color: midnightblue;
-    color: white;
 }
 
+.container .btn {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 14px;
+    padding: 0 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+.img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
