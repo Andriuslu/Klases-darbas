@@ -1,0 +1,19 @@
+.left_arrow {
+    width: 100px;
+    height: 300px;
+    float: left;
+}
+.right_arrow {
+    width: 100px;
+    height: 300px;
+    float: left;
+}
+.picture {
+    float: left;
+    width: 500px;
+    height: 500px;
+}
+.resize {
+    max-width: 100%;
+    max-height: 100%;
+}
