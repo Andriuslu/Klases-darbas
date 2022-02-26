@@ -1,5 +1,5 @@
 .border {
-    border: 0 solid;
+    border: 1px solid;
 }
 .pagrindinė {
     display: grid;
@@ -44,13 +44,13 @@
     text-align: left;
     font-size: x-large;
     position: relative;
-    left: 50px;
+    left: 20px;
+    top:0;
 }
 .contact_links {
     grid-area: o;
-    color: black;
     position: relative;
-    top: 40px;
+    top: 10px;
 }
 .img_valymas {
     grid-area: h;
@@ -195,4 +195,9 @@
 .photos_size {
     width: 200px;
     height: 200px;
+}
+
+.fb_img {
+    width: 30px;
+    height: 30px;
 }
