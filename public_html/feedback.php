@@ -33,7 +33,7 @@
         </div>
     </div>
 </div>
-<h4>Mums svarbi Jūsų nuomonė. Dėkojame už atsiliepimą!</h4>
+<h4 class="text text_place">Mums svarbi Jūsų nuomonė. Dėkojame už atsiliepimą!</h4>
 </body>
 
 <?php
