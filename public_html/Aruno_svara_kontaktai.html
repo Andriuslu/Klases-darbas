@@ -18,8 +18,8 @@
             <img src="img/valymas_logo.jpeg" alt="LOGO" style="width: 148px; height: 148px;">
         </div>
         <div class="arunas_svara">
-            <h3>Arūno švara<br></h3>
-            <p>Cheminis valymas</p>
+            <h3 class="text">Arūno švara<br></h3>
+            <p class="text">Cheminis valymas</p>
             <a href="index.html"><button class="btn">Paslaugos</button></a>
             <a href="Automobilio_valymas.html"><button class="btn">Automobilio valymas</button></a>
             <a href="Baldu_valymas.html"><button class="btn">Baldu valymas</button></a>
@@ -27,11 +27,17 @@
             <a href="Aplinkos_tvarkymas.html"><button class="btn">Aplinkos tvarkymas</button></a>
             <a href="Aruno_svara_kontaktai.html"><button class="btn">Kontaktai</button></a>
             <a href="Aruno_svara_galerija.html"><button class="btn">Galerija</button></a>
-            <a href="Atsiliepimai.html"><button class="btn">Atsiliepimai</button></a>
+            <a href="feedba.php"><button class="btn">Atsiliepimai</button></a>
         </div>
         <div class="contact_links">
             <a href="https://www.facebook.com/arunosvara" target="_blank"><img class="fb_img" src="img/FBB.png" width="512" height="512" alt="Facebook"/></a>
         </div>
+    </div>
+    <div class="text_place">
+        <h2>Susisiekite su mumis</h2>
+        <p>Arūnas<br></p>
+        <p>tel. nr. +37068718526<br></p>
+        <p>arysva@gmail.com</p>
     </div>
 
 </div>
@@ -39,46 +45,3 @@
 </body>
 
 </html>
-/* Extra maži įrenginiai (telefonai, 600px ir žemiau) */
-@media only screen and (max-width: 600px) {
-.pagrindinė, main, aside .{
-grid-template-columns: 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr;
-grid-template-areas:
-'a'
-'b'
-'c'
-'d'
-'h'
-'d'
-'f'
-'z'
-'v'
-'n'
-'m'
-'p'
-'q';
-}
-}
-
-
-/* Maži įrenginiai (statmenos planšetės, ar gulsti telefonai 600px ir aukščiau) */
-@media only screen and (min-width: 600px) {
-.pagrindinė, main, aside {
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr;
-grid-template-areas:
-'a a a'
-'b b c'
-'d d c'
-'h d f'
-'z v n m'
-'p q';
-}
-}
-/* Vidutiniai įrenginiai (gulsčios planšetės ar maži laptopai, 768px ir aukščiau) */
-@media only screen and (min-width: 768px) { ... }
-/* Dideli įrenginiai (laptopai, staliniai PC, 992px ir aukščiau) */
-@media only screen and (min-width: 992px) { ... }
-/* Extra dideli įrenginiai (dideli laptopai ir stalinai PC, 1200px ir aukščiau) */
-@media only screen and (min-width: 1200px) { ... }
