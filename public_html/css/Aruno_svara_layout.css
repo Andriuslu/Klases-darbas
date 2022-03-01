@@ -39,7 +39,6 @@
     'h r r r o';
 }
 .arunas_svara {
-    color: blue;
     grid-area: r;
     text-align: left;
     font-size: x-large;
