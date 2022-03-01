@@ -201,19 +201,6 @@
     width: 30px;
     height: 30px;
 }
-
-h2 {
-    color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-}
-li, p {
-    font-family: Arial, Helvetica, sans-serif;
-}
-.text {
-    color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-}
-
 .text_place {
     padding-left: 90px;
     padding-bottom: 20px;
@@ -252,8 +239,6 @@ textarea[typeof=text]:focus {
     position: relative;
     top: 30px;
 }
-
-/* Extra maži įrenginiai (telefonai, 600px ir žemiau) */
 @media only screen and (max-width: 600px) {
     .header {
         grid-template-columns: 1fr auto 1fr;
@@ -281,9 +266,6 @@ textarea[typeof=text]:focus {
         display: none;
     }
 }
-
-
-/* Maži įrenginiai (statmenos planšetės, ar gulsti telefonai 600px ir aukščiau) */
 @media only screen and (min-width: 600px) {
     .header {
         grid-template-columns: 1fr auto 1fr;
@@ -312,7 +294,6 @@ textarea[typeof=text]:focus {
         display: none;
     }
 }
- /*Vidutiniai įrenginiai (gulsčios planšetės ar maži laptopai, 768px ir aukščiau) */
 @media only screen and (min-width: 768px) {
     .header {
         grid-template-columns: 1fr auto 1fr;
@@ -341,7 +322,6 @@ textarea[typeof=text]:focus {
         display: none;
     }
 }
-/*!*!* Dideli įrenginiai (laptopai, staliniai PC, 992px ir aukščiau) *!*!*/
 @media only screen and (min-width: 992px) {
     .header {
         display: grid;
@@ -370,7 +350,6 @@ textarea[typeof=text]:focus {
         display: block;
     }
 }
- /*Extra dideli įrenginiai (dideli laptopai ir stalinai PC, 1200px ir aukščiau) */
 @media only screen and (min-width: 1200px) {
         .header {
             display: grid;
